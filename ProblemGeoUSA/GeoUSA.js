@@ -60,7 +60,7 @@ var centered;
 
 	//Setting up axis and scales
     x = d3.scale.linear()
-   	    .domain([0,23])
+   	    .domain([0,25])
    	    .range([10, 280]);
    	    
 	
@@ -237,7 +237,7 @@ var createDetailVis = function(){
 
         detailVis.append("g")
             .attr("class", "y axis")
-            .attr("transform","translate(280,10)")
+            .attr("transform","translate(280,0)")
             .call(yAxis.ticks(10));
             
 	    
